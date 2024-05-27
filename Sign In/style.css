@@ -1,0 +1,907 @@
+.property-default {
+  position: relative;
+  width: 430px;
+  height: 932px;
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.property-default .overlap {
+  position: absolute;
+  width: 452px;
+  height: 268px;
+  top: 474px;
+  left: 34px;
+}
+
+.property-default .ellipse {
+  position: absolute;
+  width: 202px;
+  height: 222px;
+  top: 11px;
+  left: 250px;
+  border-radius: 101px/111px;
+  filter: blur(50px);
+  background: radial-gradient(50% 50% at 50% 50%, rgba(178, 23, 29, 0.09) 0%, rgba(50.24, 112, 54.95, 0.09) 100%);
+}
+
+.property-default .frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 10px;
+  position: absolute;
+  top: 47px;
+  left: 223px;
+}
+
+.property-default .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #b2171d;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.property-default .div-wrapper {
+  display: flex;
+  width: 360px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 6.97px;
+  padding: 6.97px;
+  position: absolute;
+  top: 108px;
+  left: 0;
+  background-color: #888888;
+  border-radius: 8px;
+}
+
+.property-default .div {
+  margin-top: -0.16px;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16.7px;
+  text-align: center;
+  position: relative;
+  flex: 1;
+  font-family: "Poppins", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.property-default .frame-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 151px;
+  left: 31px;
+}
+
+.property-default .frame-3 {
+  display: flex;
+  width: 215px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.property-default .p {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.property-default .frame-4 {
+  display: flex;
+  width: 81px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.property-default .text-wrapper-2 {
+  margin-top: -1px;
+  font-weight: 600;
+  color: #b2171d;
+  font-size: 16px;
+  position: relative;
+  flex: 1;
+  font-family: "Poppins", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.property-default .frame-5 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 10px;
+  position: absolute;
+  top: 224px;
+  left: 42px;
+}
+
+.property-default .line {
+  position: relative;
+  width: 58px;
+  height: 1px;
+  object-fit: cover;
+}
+
+.property-default .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.property-default .input-field {
+  display: flex;
+  width: 362px;
+  height: 46px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.property-default .feather-action-eye {
+  position: relative;
+  width: 26px;
+  height: 20px;
+}
+
+.property-default .frame-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 14px;
+  left: 16px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+}
+
+.property-default .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #979797;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.property-default .ellipse-2 {
+  top: -10px;
+  left: -114px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(96, 214, 105, 0.09) 0%, rgba(50.24, 112, 54.95, 0.09) 100%);
+  position: absolute;
+  width: 202px;
+  height: 222px;
+  border-radius: 101px/111px;
+  filter: blur(50px);
+}
+
+.property-default .overlap-group {
+  position: absolute;
+  width: 475px;
+  height: 439px;
+  top: 802px;
+  left: -50px;
+}
+
+.property-default .ellipse-3 {
+  top: 0;
+  left: 0;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(242, 78, 30, 0.09) 0%, rgba(50.24, 112, 54.95, 0.09) 100%);
+  position: absolute;
+  width: 202px;
+  height: 222px;
+  border-radius: 101px/111px;
+  filter: blur(50px);
+}
+
+.property-default .keyboards-iphone {
+  display: flex;
+  flex-direction: column;
+  width: 419px;
+  align-items: flex-start;
+  position: absolute;
+  top: 146px;
+  left: 56px;
+  background-color: #cdd1d8e6;
+  backdrop-filter: blur(70px) brightness(100%);
+  -webkit-backdrop-filter: blur(70px) brightness(100%);
+}
+
+.property-default .iphone-alphabet {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 169px;
+  overflow: hidden;
+  backdrop-filter: blur(70px) brightness(100%);
+  -webkit-backdrop-filter: blur(70px) brightness(100%);
+}
+
+.property-default .bottom-row {
+  position: absolute;
+  width: 304px;
+  height: 43px;
+  top: 116px;
+  left: 58px;
+}
+
+.property-default .z {
+  position: absolute;
+  width: 38px;
+  height: 43px;
+  top: 0;
+  left: 0;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .letter {
+  position: absolute;
+  width: 38px;
+  top: 6px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: var(--light-ink);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.property-default .x {
+  position: absolute;
+  width: 39px;
+  height: 43px;
+  top: 0;
+  left: 44px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .letter-2 {
+  width: 39px;
+  top: 6px;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 0;
+  position: absolute;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  color: var(--light-ink);
+  text-align: center;
+  line-height: normal;
+}
+
+.property-default .c {
+  position: absolute;
+  width: 38px;
+  height: 43px;
+  top: 0;
+  left: 89px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .v {
+  position: absolute;
+  width: 38px;
+  height: 43px;
+  top: 0;
+  left: 133px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .b {
+  position: absolute;
+  width: 38px;
+  height: 43px;
+  top: 0;
+  left: 177px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .n {
+  position: absolute;
+  width: 39px;
+  height: 43px;
+  top: 0;
+  left: 221px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .m {
+  position: absolute;
+  width: 38px;
+  height: 43px;
+  top: 0;
+  left: 266px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .middle-row {
+  position: absolute;
+  width: 380px;
+  height: 43px;
+  top: 62px;
+  left: 22px;
+}
+
+.property-default .a {
+  position: absolute;
+  width: 37px;
+  height: 43px;
+  top: 0;
+  left: 0;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .letter-3 {
+  width: 37px;
+  top: 6px;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 0;
+  position: absolute;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  color: var(--light-ink);
+  text-align: center;
+  line-height: normal;
+}
+
+.property-default .s {
+  position: absolute;
+  width: 36px;
+  height: 43px;
+  top: 0;
+  left: 43px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .letter-4 {
+  width: 36px;
+  top: 6px;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 0;
+  position: absolute;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  color: var(--light-ink);
+  text-align: center;
+  line-height: normal;
+}
+
+.property-default .d {
+  position: absolute;
+  width: 38px;
+  height: 43px;
+  top: 0;
+  left: 85px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .f {
+  position: absolute;
+  width: 37px;
+  height: 43px;
+  top: 0;
+  left: 129px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .g {
+  position: absolute;
+  width: 36px;
+  height: 43px;
+  top: 0;
+  left: 172px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .h {
+  position: absolute;
+  width: 37px;
+  height: 43px;
+  top: 0;
+  left: 214px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .j {
+  position: absolute;
+  width: 38px;
+  height: 43px;
+  top: 0;
+  left: 257px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .k {
+  position: absolute;
+  width: 36px;
+  height: 43px;
+  top: 0;
+  left: 301px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .l {
+  position: absolute;
+  width: 37px;
+  height: 43px;
+  top: 0;
+  left: 343px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .top-row {
+  position: absolute;
+  width: 408px;
+  height: 43px;
+  top: 8px;
+  left: 5px;
+}
+
+.property-default .q {
+  position: absolute;
+  width: 36px;
+  height: 43px;
+  top: 0;
+  left: 0;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .w {
+  position: absolute;
+  width: 35px;
+  height: 43px;
+  top: 0;
+  left: 42px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .letter-5 {
+  width: 35px;
+  top: 6px;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 0;
+  position: absolute;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  color: var(--light-ink);
+  text-align: center;
+  line-height: normal;
+}
+
+.property-default .e {
+  position: absolute;
+  width: 35px;
+  height: 43px;
+  top: 0;
+  left: 83px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .r {
+  position: absolute;
+  width: 35px;
+  height: 43px;
+  top: 0;
+  left: 124px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .t {
+  position: absolute;
+  width: 36px;
+  height: 43px;
+  top: 0;
+  left: 165px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .y {
+  position: absolute;
+  width: 36px;
+  height: 43px;
+  top: 0;
+  left: 207px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .u {
+  position: absolute;
+  width: 35px;
+  height: 43px;
+  top: 0;
+  left: 249px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .i {
+  position: absolute;
+  width: 35px;
+  height: 43px;
+  top: 0;
+  left: 290px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .o {
+  position: absolute;
+  width: 35px;
+  height: 43px;
+  top: 0;
+  left: 331px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .letter-wrapper {
+  position: absolute;
+  width: 36px;
+  height: 43px;
+  top: 0;
+  left: 372px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .keys-icon {
+  width: 42px;
+  top: -14599px;
+  left: -36032px;
+  position: absolute;
+  height: 43px;
+}
+
+.property-default .img {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: -14599px;
+  left: -35661px;
+}
+
+.property-default .iphone-controller {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 124px;
+  overflow: hidden;
+}
+
+.property-default .home-indicator {
+  position: absolute;
+  width: 149px;
+  height: 5px;
+  top: 111px;
+  left: 135px;
+  background-color: var(--light-ink);
+  border-radius: 3px;
+}
+
+.property-default .mic {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: -14820px;
+  left: -35676px;
+}
+
+.property-default .emojis {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  top: -14820px;
+  left: -36017px;
+}
+
+.property-default .space {
+  position: absolute;
+  width: 226px;
+  height: 43px;
+  top: 3px;
+  left: 96px;
+  background-color: var(--light-primary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .letter-6 {
+  width: 226px;
+  top: 11px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  position: absolute;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  color: var(--light-ink);
+  text-align: center;
+  line-height: normal;
+}
+
+.property-default .keys-label {
+  width: 87px;
+  top: 3px;
+  left: 329px;
+  background-color: var(--light-secondary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+  position: absolute;
+  height: 43px;
+}
+
+.property-default .letter-7 {
+  width: 87px;
+  top: 11px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+  position: absolute;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  color: var(--light-ink);
+  text-align: center;
+  line-height: normal;
+}
+
+.property-default .keys-label-2 {
+  position: absolute;
+  width: 87px;
+  height: 43px;
+  top: 3px;
+  left: 3px;
+  background-color: var(--light-secondary);
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px #0000004c;
+}
+
+.property-default .frame-7 {
+  display: flex;
+  width: 277px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 10px;
+  position: absolute;
+  top: 237px;
+  left: 77px;
+}
+
+.property-default .text-wrapper-5 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Jost", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.property-default .frame-8 {
+  display: flex;
+  width: 339px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0px 10px;
+  position: absolute;
+  top: 292px;
+  left: 46px;
+}
+
+.property-default .text-wrapper-6 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #6d6666;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.property-default .frame-9 {
+  position: absolute;
+  width: 80px;
+  height: 34px;
+  top: 750px;
+  left: 274px;
+}
+
+.property-default .frame-10 {
+  position: absolute;
+  width: 80px;
+  height: 34px;
+  top: 750px;
+  left: 175px;
+}
+
+.property-default .frame-11 {
+  position: absolute;
+  width: 80px;
+  height: 34px;
+  top: 750px;
+  left: 76px;
+}
+
+.property-default .frame-12 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 16.3px;
+  position: absolute;
+  top: 116px;
+  left: 171px;
+}
+
+.property-default .vector {
+  position: relative;
+  width: 88px;
+  height: 106.74px;
+}
+
+.property-default .rectangle {
+  width: 29px;
+  height: 23px;
+  top: 24px;
+  left: 28px;
+  background-color: #fdfdfd;
+  position: absolute;
+  border: 1.63px solid;
+  border-color: transparent;
+}
+
+.property-default .rectangle-2 {
+  width: 13px;
+  height: 13px;
+  top: 11px;
+  left: 57px;
+  background-color: #ffffff;
+  position: absolute;
+  border: 1.63px solid;
+  border-color: transparent;
+}
+
+.property-default .input-field-2 {
+  display: flex;
+  width: 362px;
+  height: 42px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 412px;
+  left: 34px;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.property-default .vector-2 {
+  position: relative;
+  width: 24px;
+  height: 18.95px;
+}
+
+.property-default .input {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  border: none;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #979797;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+}
