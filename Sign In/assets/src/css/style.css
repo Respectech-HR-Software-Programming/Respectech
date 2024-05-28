@@ -118,6 +118,15 @@ button:hover {
     cursor: pointer;
 }
 
+.sign-up-link a {
+    text-decoration: none;
+    color: red;
+}
+
+.sign-up-link a:hover {
+    color: #000;
+}
+
 .alternative-login {
     display: flex;
     align-items: center;
@@ -147,8 +156,8 @@ button:hover {
     text-decoration: none;
 }
 
-.social-icon.instagram:hover {
-    color: #833AB4;
+.social-icon.google:hover {
+    color: #065f28;
 }
 
 .social-icon.twitter:hover {

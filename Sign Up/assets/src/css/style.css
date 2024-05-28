@@ -37,12 +37,12 @@ body {
     height: auto;
 }
 
-.welcome-text {
-    font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
-    color: #333;
+.welcome-text  {
+    font-weight: 700;
+    font-size: 1.75em;
     margin-bottom: 10px;
-}
+    text-align: center;
+ }
 
 .sub-text {
     color: #666;
@@ -178,4 +178,16 @@ button:hover {
     .social-icons {
         gap: 15px;
     }
+}
+
+.social-icon.google:hover {
+    color: #065f28;
+}
+
+.social-icon.twitter:hover {
+    color: #1DA1F2;
+}
+
+.social-icon.linkedin:hover {
+    color: #0077B5;
 }
