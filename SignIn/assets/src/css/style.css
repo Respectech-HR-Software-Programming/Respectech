@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.sign-in-form {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 88px;
+    margin-bottom: 20px;
+}
+
+.logo-img {
+    width: 50%;
+    height: auto;
+}
+
+.welcome-message {
+    font-weight: 700;
+    font-size: 1.75em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.instruction-message {
+    color: #6d6666;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.input-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b2171d;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    color: #b2171d;
+    text-decoration: none;
+}
+
+.sign-up-section {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.no-account {
+    color: #000;
+}
+
+.sign-up-link {
+    color: #b2171d;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sign-up-link a {
+    text-decoration: none;
+    color: red;
+}
+
+.sign-up-link a:hover {
+    color: #000;
+}
+
+.alternative-login {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.separator {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #b2171d;
+}
+
+.alternative-text {
+    margin: 0 10px;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+
+.social-icon.google:hover {
+    color: #065f28;
+}
+
+.social-icon.twitter:hover {
+    color: #1DA1F2;
+}
+
+.social-icon.linkedin:hover {
+    color: #0077B5;
+}
