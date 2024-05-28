@@ -1,0 +1,97 @@
+/* Google Fonts CDN */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  line-height: 1.5;
+  color: #555;
+  background-color: #f9f9f9;
+}
+
+html {
+  /* Enableds scaling with rem unit 62.5% of 16px = 10px */
+  font-size: 62.5%;
+}
+
+/* Container for all Sections */
+.container {
+  margin-top: 5.3rem;
+}
+
+/* Styling of first section for Jobs header & Search input field */
+.first-section {
+  max-width: 60rem;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.jobs-header {
+  display: inline-block;
+  /* border: 1px solid red; */
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(237, 28, 36);
+  margin-bottom: 2.5rem;
+  margin-right: 50px;
+  padding: 1rem;
+  height: auto;
+}
+
+.jobs-search {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  border-radius: 2rem;
+  background-color: #ffffff;
+  color: #979797;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.486);
+}
+.search-input-element {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  letter-spacing: 0.1rem;
+  flex-grow: 1;
+}
+
+/* Styling of second section for All categories field */
+
+.second-section {
+  margin-top: 2.6rem;
+}
+.jobs-categories-slider {
+    background-color: #ffffff;
+  margin: 0 4rem;
+  display: flex;
+  gap: 1rem;
+}
+.All-category {
+  color: #ffffff;
+  background-color: black;
+  border-radius: 1rem;
+}
+.other-category, .All-category {
+    text-align: center;
+    padding: 1rem 2.4rem;
+}
+
+/* Styling of second section for Time-line */
+.third-section {
+    margin: 0 2rem;
+  border: 1px solid rgb(17, 16, 16);
+  margin-top: 5rem;
+  padding: 0 2rem;
+}
+.jobs-timeline {
+      border: 1px solid rgb(218, 16, 16);
+
+}
