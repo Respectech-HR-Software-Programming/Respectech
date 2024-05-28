@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Verify</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">Verify your email</div>
+        <div class="message">
+            Please input the code sent to your email.
+            <br />
+            Thank you
+        </div>
+        <div class="code-container">
+            <input type="text" class="code" maxlength="1" />
+            <input type="text" class="code" maxlength="1" />
+            <input type="text" class="code" maxlength="1" />
+            <input type="text" class="code" maxlength="1" />
+        </div>
+        <button class="verify-btn">Verify</button>
+        <div class="resend-container">
+            <div class="resend-text">Didn't receive code?</div>
+            <button class="resend-btn">Resend code</button>
+        </div>
+    </div>
+    <script>
+        const codeInputs = document.querySelectorAll('.code');
+        const verifyBtn = document.querySelector('.verify-btn');
+        const resendBtn = document.querySelector('.resend-btn');
+
+        codeInputs.forEach((input, index) => {
+            input.addEventListener('keyup', (e) => {
+                if (e.target.value.length === 1) {
+                    if (index < codeInputs.length - 1) {
+                        codeInputs[index + 1].focus();
+                    } else {
+                        verifyBtn.focus();
+                    }
+                }
+            });
+        });
+
+        verifyBtn.addEventListener('click', () => {
+            const code = codeInputs.map((input) => input.value).join('');
+            console.log(`Code entered: ${code}`);
+            // Add your verification logic here
+        });
+
+        resendBtn.addEventListener('click', () => {
+            console.log('Resend code button clicked');
+            // Add your resend code logic here
+        });
+    </script>
+</body>
+
+</html>
