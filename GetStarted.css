@@ -16,7 +16,7 @@ body, html {
     background-color: #ffffff;
     border: 1px solid #ccc;
     border-radius: 10px;
-    width: 90%;
+    width: 100%;
     max-width: 400px;
     height: 100%;
     padding: 20px;
@@ -26,12 +26,15 @@ body, html {
 }
 
 .logo {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 33vh;
+
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
+    margin-top: 0;
+    width: 60px;
+    height: 60px;
 }
 .title{
     font-size: 18px;
@@ -57,21 +60,23 @@ body, html {
     background-color: #000000;
     color: #ffffff;
     border: none;
-    padding: 10px 25px;
+    padding: 10px 28px;
     font-size: 16px;
-    border-radius: 15px;
+    border-radius: 20px;
     cursor: pointer;
     text-transform: uppercase;
-    margin-top: 50vb;
+    margin-top: 60px;
+    margin-bottom: 20vb;
 }
 
 .sign-in {
-    margin-top: 20px;
+   
+   margin-bottom: 0;
     font-size: 14px;
 }
 
 .sign-in a {
     color: #e63946;
     text-decoration: none;
-    margin-bottom: 0;
+   
 }

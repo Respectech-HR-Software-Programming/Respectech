@@ -62,11 +62,11 @@ body, html {
 .divButton{
     margin-top: 50vb;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     
 }
 .button{border-radius: 20px;
-padding:2px  25px 2px 25px;
+padding:10px 28px;
 background-color: #FF0000;
 color:#f4f4f4;
 cursor: pointer;
