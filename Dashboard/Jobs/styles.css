@@ -13,6 +13,8 @@ body {
   color: #555;
   background-color: #f9f9f9;
     border: 1px solid rgb(202, 41, 41);
+    overflow-y: hidden;
+    height: 100vh;
 
 }
 
@@ -108,6 +110,19 @@ html {
 }
 .jobs-timeline {
   border: 1px solid rgb(68, 45, 45);
-  height: 40rem;
+  height: 51rem;
+  overflow-y: scroll;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 0.8rem;
+  padding: 1.5rem;
+
+}
+
+.jobs-ads {
+  border: 1px solid red;
+  height: 25rem;
+  width: 40rem;
 }
 
