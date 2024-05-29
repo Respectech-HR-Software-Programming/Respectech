@@ -9,22 +9,24 @@
     overflow-x: hidden;
 }
 
-.div-2 {
+.hero-container {
     display: flex;
     flex-direction: column;
     fill: #b54a4e;
     overflow: hidden;
     position: relative;
     min-height: 269px;
+    height: 150px;
     width: 100%;
     padding: 71px 33px 0;
+    object-fit: cover;
 }
 
-.img {
+.hero {
     position: absolute;
     inset: 0;
-    height: 100%;
-    width: 100%;
+    height: 269px;
+    width: 90%;
     object-fit: cover;
     object-position: center;
 }
@@ -43,7 +45,7 @@
     gap: 3px;
 }
 
-.img-2 {
+.profile-image {
     aspect-ratio: 1;
     object-fit: auto;
     object-position: center;
@@ -52,7 +54,7 @@
     align-self: start;
 }
 
-.div-5 {
+.welcome {
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -65,11 +67,13 @@
     padding: 0 4px;
 }
 
-.img-3 {
+.user-name {
+    margin: 0;
     aspect-ratio: 10;
     object-fit: auto;
     object-position: center;
     width: 162px;
+    color: white;
 }
 
 .div-7 {
@@ -80,11 +84,13 @@
     padding: 0 4px;
 }
 
-.img-4 {
+.success {
+    margin: 0;
     aspect-ratio: 4.76;
     object-fit: auto;
     object-position: center;
     width: 170px;
+    color: white;
 }
 
 .img-5 {
@@ -96,39 +102,47 @@
 }
 
 .search-container {
-    position: relative;
+    display: flex;
     align-items: center;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+
+.search-box-wrapper {
+    position: relative;
+    width: 83%;
+}
+
+.search-box {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 1px solid #ccc;
     border-radius: 16px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.27);
     background-color: #fff;
-    display: flex;
-    margin-top: 93px;
-    font-size: 16px;
-    color: #979797;
-    font-weight: 400;
-    white-space: nowrap;
-    padding: 10px;
-    width: 100%;
-}
-
-.search input[type="text"] {
-    border: none;
-    padding-left: 35px; /* Adjust padding to account for icon width */
-    width: 100%; /* Make input fill remaining space */
+    outline: none;
+    box-sizing: border-box;
 }
 
 .search-icon {
     position: absolute;
-    left: 15px; /* Position icon inside the input */
-    font-size: 16px; /* Adjust size of icon if necessary */
-    color: #979797; /* Match icon color with placeholder text */
+    top: 50%;
+    right: 3px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #888;
+    background: none;
+    border: none;
+    outline: none;
 }
 
-/* Optional: Add padding to the form to ensure it wraps the input nicely */
-.search form {
-    padding: 0;
+.search-icon:hover {
+    color: #555;
 }
 
+.search-icon i {
+    font-size: 20px;
+}
 
 .div-8 {
     position: relative;
@@ -172,7 +186,7 @@
 
 .div-10 {
     display: flex;
-    margin-top: 8px;
+    margin: auto;
     width: 100%;
     flex-direction: column;
     color: #000;
@@ -181,10 +195,11 @@
 }
 
 .img-8 {
+    margin: auto;
     aspect-ratio: 2.33;
-    object-fit: auto;
+    object-fit: cover;
     object-position: center;
-    width: 100%;
+    width: 90%;
 }
 
 .div-11 {
@@ -462,6 +477,7 @@
     .div {
         overflow-x: hidden;
     }
+
     .div-4 {
         gap: 8px;
     }
@@ -497,8 +513,9 @@
 @media screen and (max-width: 480px) {
 
     .div {
-            overflow-x: hidden;
-        }
+        overflow-x: hidden;
+    }
+
     .div-4 {
         gap: 6px;
     }
@@ -552,8 +569,9 @@
 
 @media (max-width: 991px) {
     .div {
-            overflow-x: hidden;
-        }
+        overflow-x: hidden;
+    }
+
     .column-3 {
         width: 100%;
     }
@@ -1526,6 +1544,7 @@
         padding: 0 3rem;
     }
 }
+
 /* End of Navbar */
 
 .img-28 {
