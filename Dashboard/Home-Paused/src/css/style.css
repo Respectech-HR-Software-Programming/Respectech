@@ -1,3 +1,4 @@
+/* Base Styles */
 .div {
     background-color: var(--off-white, #f9f9f9);
     display: flex;
@@ -5,6 +6,7 @@
     width: 100%;
     flex-direction: column;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .div-2 {
@@ -13,7 +15,6 @@
     fill: #b54a4e;
     overflow: hidden;
     position: relative;
-    display: flex;
     min-height: 269px;
     width: 100%;
     padding: 71px 33px 0;
@@ -93,6 +94,41 @@
     width: 32px;
     align-self: start;
 }
+
+.search-container {
+    position: relative;
+    align-items: center;
+    border-radius: 16px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.27);
+    background-color: #fff;
+    display: flex;
+    margin-top: 93px;
+    font-size: 16px;
+    color: #979797;
+    font-weight: 400;
+    white-space: nowrap;
+    padding: 10px;
+    width: 100%;
+}
+
+.search input[type="text"] {
+    border: none;
+    padding-left: 35px; /* Adjust padding to account for icon width */
+    width: 100%; /* Make input fill remaining space */
+}
+
+.search-icon {
+    position: absolute;
+    left: 15px; /* Position icon inside the input */
+    font-size: 16px; /* Adjust size of icon if necessary */
+    color: #979797; /* Match icon color with placeholder text */
+}
+
+/* Optional: Add padding to the form to ensure it wraps the input nicely */
+.search form {
+    padding: 0;
+}
+
 
 .div-8 {
     position: relative;
@@ -189,26 +225,12 @@
     display: flex;
 }
 
-@media (max-width: 991px) {
-    .div-16 {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 0px;
-    }
-}
-
 .column {
     display: flex;
     flex-direction: column;
     line-height: normal;
     width: 27%;
     margin-left: 0px;
-}
-
-@media (max-width: 991px) {
-    .column {
-        width: 100%;
-    }
 }
 
 .div-17 {
@@ -327,12 +349,6 @@
     margin-left: 20px;
 }
 
-@media (max-width: 991px) {
-    .column-2 {
-        width: 100%;
-    }
-}
-
 .div-28 {
     border-radius: 8px;
     overflow-x: auto;
@@ -441,6 +457,91 @@
     font: 12px Poppins, sans-serif;
 }
 
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .div {
+        overflow-x: hidden;
+    }
+    .div-4 {
+        gap: 8px;
+    }
+
+    .img-2 {
+        width: 30px;
+    }
+
+    .img-3 {
+        width: 140px;
+    }
+
+    .img-4 {
+        width: 150px;
+    }
+
+    .div-8 {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .div-16 {
+        flex-direction: column;
+    }
+
+    .column,
+    .column-2 {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .div {
+            overflow-x: hidden;
+        }
+    .div-4 {
+        gap: 6px;
+    }
+
+    .img-2 {
+        width: 25px;
+    }
+
+    .img-3 {
+        width: 120px;
+    }
+
+    .img-4 {
+        width: 130px;
+    }
+
+    .div-8 {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .div-16 {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .column,
+    .column-2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .img-9,
+    .img-11 {
+        width: 24px;
+    }
+
+    .img-10,
+    .img-12 {
+        width: 10px;
+    }
+}
+
 .column-3 {
     display: flex;
     flex-direction: column;
@@ -450,6 +551,9 @@
 }
 
 @media (max-width: 991px) {
+    .div {
+            overflow-x: hidden;
+        }
     .column-3 {
         width: 100%;
     }
@@ -1352,114 +1456,77 @@
     padding: 8px;
 }
 
-.div-130 {
-    justify-content: center;
-    align-items: center;
+/* Navbar */
+.navbar {
     display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 0 6px;
-}
-
-.img-19 {
-    aspect-ratio: 1.75;
-    object-fit: auto;
-    object-position: center;
-    width: 42px;
-}
-
-.img-20 {
-    aspect-ratio: 4.17;
-    object-fit: auto;
-    object-position: center;
-    width: 42px;
-    margin-top: 4px;
-}
-
-.div-131 {
-    justify-content: center;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 0 6px;
-}
-
-.img-21 {
-    aspect-ratio: 1.37;
-    object-fit: auto;
-    object-position: center;
-    width: 33px;
-}
-
-.img-22 {
-    aspect-ratio: 3.03;
-    object-fit: auto;
-    object-position: center;
-    width: 33px;
-}
-
-.div-132 {
     justify-content: center;
-    align-items: center;
+    padding: 0 1em;
+    color: black;
+    overflow: hidden;
+    margin: 0;
+}
+
+.navbar a {
     display: flex;
-    flex-direction: column;
-    padding: 0 6px;
-}
-
-.img-23 {
-    aspect-ratio: 1;
-    object-fit: auto;
-    object-position: center;
-    width: 24px;
-}
-
-.img-24 {
-    aspect-ratio: 9.09;
-    object-fit: auto;
-    object-position: center;
-    width: 96px;
-}
-
-.div-133 {
-    justify-content: center;
+    gap: 0.2em;
     align-items: center;
-    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    height: auto;
+    transition: all 300ms ease;
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #000;
     flex-direction: column;
-    flex: 1;
-    padding: 0 6px;
+    margin: 0;
 }
 
-.img-25 {
-    aspect-ratio: 1.59;
-    object-fit: auto;
-    object-position: center;
-    width: 38px;
+.navbar a h3 {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: flex;
+    margin: 0;
 }
 
-.img-26 {
-    aspect-ratio: 3.85;
-    object-fit: auto;
-    object-position: center;
-    width: 38px;
-    margin-top: 4px;
-}
-
-.div-134 {
-    justify-content: center;
+.navbar a span {
+    padding-top: 9px;
+    padding-bottom: 0;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    padding: 0 6px;
 }
 
-.img-27 {
-    aspect-ratio: 1.75;
-    object-fit: auto;
-    object-position: center;
-    width: 42px;
+.navbar a:hover {
+    padding-top: 1.5rem;
+    color: brown;
 }
+
+/* Tablet and above */
+@media (min-width: 768px) {
+    .navbar {
+        padding: 0 2em;
+    }
+
+    .navbar a {
+        padding: 0 2rem;
+    }
+}
+
+/* Desktop and above */
+@media (min-width: 1024px) {
+    .navbar {
+        padding: 0 3em;
+    }
+
+    .navbar a {
+        padding: 0 3rem;
+    }
+}
+/* End of Navbar */
 
 .img-28 {
     aspect-ratio: 3.85;
@@ -1491,4 +1558,22 @@
 .div-138 {
     height: 4px;
     flex: 1;
+}
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 767px) {
+    .div {
+        max-width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
+}
+
+/* Styles for screens smaller than 480px */
+@media (max-width: 479px) {
+    .div {
+        max-width: 100%;
+        margin: auto;
+        overflow-x: hidden;
+    }
 }
